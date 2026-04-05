@@ -1,5 +1,8 @@
 name: Generate badges
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [main]
